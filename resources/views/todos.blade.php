@@ -11,7 +11,7 @@
         Pusher.logToConsole = true;
 
         // Initialize Pusher
-        const pusher = new Pusher('361a31314f1a9d681740', {
+        const pusher = new Pusher('your-pusher-app-key', {
             cluster: 'ap1',
             forceTLS: true
         });
