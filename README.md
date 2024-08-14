@@ -10,6 +10,7 @@ sudo apt install -y php8.1 php8.1-fpm php8.1-ctype php8.1-curl php8.1-dom php8.1
 Install Semua Dependensi
 ```
 composer install
+npm install
 ```
 Copy .env.example menjadi .env
 ```
@@ -46,4 +47,9 @@ Lakukan
 ```
 php artisan storage:link
 sudo chown 33:33 -R public/ storage/ bootstrap/
+```
+Jalankan
+```
+php artisan serve
+npm run dev
 ```
